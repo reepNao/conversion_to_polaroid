@@ -9,8 +9,8 @@ There are 2 functions that I don't need to keep as a separate file, but the reas
 -pixel_dimensions.py
 
 -------
-If you have an image with more horizontal length, for example "reverend mother 2.jpg" you can run the to_polaroid1.py file in the polaroid1.0 folder. Its general purpose is to convert the image to polaroid by halving its width.
+If you have an image with more horizontal length, for example "reverend mother 2.jpg" you can run the to_polaroid_horizontal.py file in the polaroid_horizontal folder. Its general purpose is to convert the image to polaroid by halving its width.
 
 -------
-If you have an image with more vertical length or a square image, for example "lea seydoux f.jpg" you can run the to_polaroid2.py file in the polaroid2.0 folder.
+If you have an image with more vertical length or a square image, for example "lea seydoux f.jpg" you can run the to_polaroid_vertical.py file in the polaroid_vertical folder.
 
