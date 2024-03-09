@@ -10,3 +10,7 @@ There are 2 functions that I don't need to keep as a separate file, but the reas
 
 -------
 If you have an image with more horizontal length, for example "reverend mother 2.jpg" you can run to_polaroid.py. Its general purpose is to convert the image to polaroid by halving its width.
+
+-------
+If you have an image with more vertical length or a square image, for example "lea seydoux f.jpg" you can run the to_polaroid.py file in the polaroid2.0 folder.
+
