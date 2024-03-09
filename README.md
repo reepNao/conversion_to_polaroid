@@ -7,3 +7,6 @@ There are 2 functions that I don't need to keep as a separate file, but the reas
 -gray_scale.py
 
 -pixel_dimensions.py
+
+-------
+If you have an image with more horizontal length, for example "reverend mother 2.jpg" you can run to_polaroid.py. Its general purpose is to convert the image to polaroid by halving its width.
