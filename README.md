@@ -4,5 +4,7 @@ After watched Dune Part Two, I wanted to make a simple and basic conversion to p
 
 There are 2 functions that I don't need to keep as a separate file, but the reason I added them this way is to create them while I learn how to do them. 
 They are:
+
+
 -gray_scale.py
 -pixel_dimensions.py
