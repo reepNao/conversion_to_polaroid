@@ -26,6 +26,7 @@ if __name__ == "__main__":
 
     input_path = crop_and_resize_image(input_image, cropped_folder)
     output_folder = "output_folder"
+
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
@@ -33,3 +34,7 @@ if __name__ == "__main__":
     image_dimensions = (width, height)
     apply_polaroid_effect(input_path, output_folder, image_dimensions)
 
+    try:
+        os.remove(input_path)
+    except Exception as e:
+        print(f"Error: {e}")
